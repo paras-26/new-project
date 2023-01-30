@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.st{
+  height: 100px;
+  width: 100%;
+  background-color: orange;
+}
+.st h1{
+    color:white;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.center-text h2{
+  color: chartreuse;
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+.center-text span{
+color: brown;
+}
+.products{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+gap: 2rem;
+background-color: grey;
+}
+.row{
+position: relative;
+transition: all .40s;
+
+}
+.row img{
+width: 100%;
+height: auto;
+transition: all .40s;
+border-color:chartreuse;
+}
+.row img:hover{
+transform: scale(0.9);
+}
+.product-text h5{
+position: absolute;
+top: 13px;
+left: 13px;
+color: white;
+font-size: 12px;
+font-weight: 50;
+text-transform: uppercase;
+background-color: green;
+padding: 3px 10px;
+border-radius: 2px;
+}
+.price{
+ background-color: #111;
+text-transform: capitalize;
+font-weight: 400;
+width: 40%;
+margin-left: 30%;
+
+}
+.price p{
+color:white;
+font-size: 30px;
+font-weight: 600;
+text-align: center;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.st{
+  height: 100px;
+  width: 100%;
+  background-color: orange;
+}
+.st h1{
+    color:white;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.center-text h2{
+  color: chartreuse;
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 900;
+}
+.center-text span{
+color: brown;
+}
+.products{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+gap: 2rem;
+background-color: grey;
+}
+.row{
+position: relative;
+transition: all .40s;
+
+}
+.row img{
+width: 100%;
+height: auto;
+transition: all .40s;
+border-color:chartreuse;
+}
+.row img:hover{
+transform: scale(0.9);
+}
+.product-text h5{
+position: absolute;
+top: 13px;
+left: 13px;
+color: white;
+font-size: 12px;
+font-weight: 50;
+text-transform: uppercase;
+background-color: green;
+padding: 3px 10px;
+border-radius: 2px;
+}
+.price{
+ background-color: #111;
+text-transform: capitalize;
+font-weight: 400;
+width: 40%;
+margin-left: 30%;
+
+}
+.price p{
+color:white;
+font-size: 30px;
+font-weight: 600;
+text-align: center;
+}
